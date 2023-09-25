@@ -8,7 +8,7 @@ steps:
 - task: AzureContainerApps@1
   inputs:
     appSourcePath: './'
-    azureSubscription: '380a10c2-0513-492d-ac62-b291196fe623'
+    azureSubscription: '733ed6f9-010f-4d62-8993-d622330af8cb'
     acrName: 'containersofthestorm'
     containerAppName: 'stormapp'
     resourceGroup: 'CCStormhorn'
